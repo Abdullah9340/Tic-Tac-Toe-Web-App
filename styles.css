@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right, black,white, rgb(243, 101, 101));
+}
+header{
+  text-align: center;
+  font-size: 38px;
+}
+
+.grid-layout{
+  background-color: rgb(44, 41, 41);
+  margin: 10px auto;
+  max-width:400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.6em;
+}
+
+.space{
+  height: 150px;
+  background-color: #f4f4f4;
+}
+
+.X{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 30%;
+  color: red;
+  font-size: 48px;
+}
+
+.O{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 30%;
+  color: red;
+  font-size: 48px;
+}
+
+.msg{
+  text-align: center;
+  font-size: 30px;
+}
